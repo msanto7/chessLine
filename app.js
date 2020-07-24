@@ -5,7 +5,10 @@
 var express = require('express')
 var app = express()
 
-// serve static file 
+/* Global Actions 
+*/
+
+//serve static file 
 app.use(express.static('public'))
 
 // http server
